@@ -5,7 +5,7 @@ body{
 }
 
 .geral{
-    background-color: #d4d2d2;
+    background-color: #c9c7c78e;
     width: 100%;
 }
 
@@ -14,7 +14,7 @@ body{
 }
 
 .menu-cima{
-    background-color: brown;
+    background-color: rgb(230, 25, 25);
     width: 100%;
     height: 150px;
     position: fixed;
@@ -47,7 +47,7 @@ body{
 .primeiro-pedido h2{
     font-size: 30px;
     font-weight: bolder;
-    color: white;
+    color: rgb(250, 250, 250);
     margin-left: 40px;
 }
 
@@ -59,7 +59,7 @@ body{
 }
 
 .pedidos-pratos img{
-    width: 270px;
+    width: 180px;
 }
 
 .pedidos-pratos h3{
@@ -75,12 +75,19 @@ body{
 
 .pedidos-pratos button{
     margin-left: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
-    height: 300px;
-    width: 300px;
+    height: 230px;
+    width: 200px;
 }
 
 .rolamento .preco{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.rolamento2 .preco{
     margin-top: 10px;
     font-size: 20px;
     color: black;
@@ -95,7 +102,7 @@ body{
 }
 
 .pedidos-bebidas img{
-    width: 270px;
+    width: 180px;
 }
 
 .pedidos-bebidas h3{
@@ -111,9 +118,10 @@ body{
 
 .pedidos-bebidas button{
     margin-left: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
-    height: 300px;
-    width: 300px;
+    height: 230px;
+    width: 200px;
 
 }
 -------------
@@ -124,7 +132,7 @@ body{
 }
 
 .pedidos-sobremesa img{
-    width: 270px;
+    width: 180px;
 }
 
 .pedidos-sobremesa h3{
@@ -141,8 +149,8 @@ body{
 .pedidos-sobremesa button{
     margin-left: 30px;
     border-radius: 20px;
-    height: 300px;
-    width: 300px;
+    height: 230px;
+    width: 200px;
 }
 .rolamento{
     display: flex;
@@ -173,7 +181,7 @@ body{
 }
 
 .botao-finalizar-pedido button{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
 }
 
@@ -189,4 +197,12 @@ body{
 
 .verde{
     border: 5px solid green;
+}
+.botao-finalizar-pedido .fundo-verde{
+    background: green;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
 }
