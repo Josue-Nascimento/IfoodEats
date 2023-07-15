@@ -17,7 +17,7 @@ const selecionado = document.querySelector(almoco);
 selecionado.classList.add('verde');
 almoco1 = document.querySelector(almoco)
 console.log(almoco1)
- almocopreco = Number(document.querySelector('.rolamento .preco').innerHTML)
+ almocopreco = Number(document.querySelector('.rolamento .verde .preco').innerHTML)
  console.log(almocopreco)
 
 
@@ -39,7 +39,7 @@ function selecionarbebida(bebida){
    selecionado1.classList.add('verde')
    bebida1 = document.querySelector(bebida)
    console.log(bebida1)
-   bebidapreco = Number(document.querySelector('.rolamento1 .preco').innerHTML)
+   bebidapreco = Number(document.querySelector('.rolamento1 .verde .preco').innerHTML)
    console.log(bebidapreco)
 
    btFinalizar();
@@ -59,7 +59,7 @@ function selecionarSobrebemesa(sobremesa){
    sobremesa1 = document.querySelector(sobremesa)
    console.log(sobremesa1)
 
-   sobremesapreco = Number(document.querySelector('.rolamento2 .preco').innerHTML)
+   sobremesapreco = Number(document.querySelector('.rolamento2 .verde .preco').innerHTML)
    console.log(sobremesapreco) 
 
    btFinalizar();
@@ -92,7 +92,7 @@ function IrParaWhatsapp(){
       Total: R$ ${soma.toFixed(2)}`
       
       let uri = encodeURIComponent(mensagem)
-        window.open( 'https://wa.me/5512992189430?text='+uri)
+      window.open( 'https://wa.me/5512992189430?text='+uri)
    }
 }
 
